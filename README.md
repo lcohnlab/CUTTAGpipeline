@@ -116,7 +116,20 @@ After the workflow completes, you should have:
 - Spike-in normalized bedGraphs in alignment/bedgraph/
 - SEACR peak calls in peakCalling/SEACR/ 
 
+## Module List
 
+When running on `rhino` HPC cluster these are some recommended modules to load to run this pipeline smoothly:
+
+```
+tmux/3.4-GCCcore-13.2.0
+snakemake/7.32.3-foss-2022b
+FastQC/0.12.1-Java-11
+Bowtie2/2.4.4-GCC-11.2.0
+SAMtools/1.21-GCC-13.3.0
+BEDTools/2.31.0-GCC-12.3.0
+picard/2.25.1-Java-11
+R/4.4.2-gfbf-2024a
+```
 
 
 
