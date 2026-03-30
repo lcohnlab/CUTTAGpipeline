@@ -1,0 +1,25 @@
+# config.yaml
+
+# Project root; current working dir
+projPath: "/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline"
+fastq_dir: "/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/" # where fastq files are
+
+# Bowtie2 indices (already built)
+BOWTIE_INDEX: '/fh/fast/cohn_l/grp/projects/cuttag-data/tutorial/bowtie2Index/hg38'
+SPIKEIN_INDEX: '/fh/fast/cohn_l/grp/projects/cuttag-data/tutorial/bowtie2Index/Ecoli'
+chromSize: "/fh/fast/cohn_l/grp/projects/cuttag-data/tutorial/hg38.chrom.sizes"
+
+picard_cmd: "java -jar $EBROOTPICARD/picard.jar"
+seacr_script: "/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/SEACR/SEACR_1.3.sh"
+histControl: "IgG_rep1"
+
+threads:
+  fastqc: 2
+  bowtie2: 8
+  samtools: 4
+
+# Output directory for FastQC reports
+fastqc_outdir: "fastqFileQC"
+
+# Output directory for Alignment
+alignment_dir: "alignment"
