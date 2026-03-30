@@ -1,13 +1,1 @@
 sample	filename	path	control
-H3K4me3_rep1	H3K4me3_rep1_R1.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K4me3_rep1	H3K4me3_rep1_R2.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K4me3_rep2	H3K4me3_rep2_R1.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K4me3_rep2	H3K4me3_rep2_R2.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K27me3_rep1	H3K27me3_rep1_R1.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K27me3_rep1	H3K27me3_rep1_R2.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K27me3_rep2	H3K27me3_rep2_R1.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-H3K27me3_rep2	H3K27me3_rep2_R2.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	IgG_rep1
-IgG_rep1	IgG_rep1_R1.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	
-IgG_rep1	IgG_rep1_R2.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	
-IgG_rep2	IgG_rep2_R1.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	
-IgG_rep2	IgG_rep2_R2.fastq.gz	/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/fastq/	

@@ -5,7 +5,7 @@ library(GenomicRanges)
 library(rtracklayer)
 library(Rsamtools)
 
-projPath <- '/fh/fast/cohn_l/grp/projects/cuttag-data/CUTTAGpipeline/'
+projPath <- '/path/to/CUTTAGpipeline/' # update with working dir
 
 # Read sample sheet to get histone and replicate lists
 df <- read.table("data/samples.tsv", header = TRUE, sep = "\t",
